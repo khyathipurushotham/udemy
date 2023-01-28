@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+    background-color: black;
+
+}
+.gallery img{
+    width:100%;
+    max-width: 350px;
+    height:300px;
+    border-radius:  50% 50%;
+    border: 5px solid bisque;
+    
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+
+h2{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
